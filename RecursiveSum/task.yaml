@@ -29,7 +29,7 @@ limits:
     time: '30'
 name: 'Session 8: Sum'
 network_grading: false
-order: 28
+order: 33
 problems:
     q1:
         header: |-

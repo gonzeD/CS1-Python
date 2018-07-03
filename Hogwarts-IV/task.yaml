@@ -33,7 +33,7 @@ limits:
     time: '30'
 name: 'Session 6: Hogwarts - Quidditch'
 network_grading: false
-order: 25
+order: 28
 problems:
     q1:
         header: Implement the function ``referee(score_file)`` in Python.

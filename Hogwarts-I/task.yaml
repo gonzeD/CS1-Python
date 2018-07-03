@@ -26,7 +26,7 @@ limits:
     time: '30'
 name: 'Session 4: Hogwarts - Fat Lady'
 network_grading: false
-order: 19
+order: 21
 problems:
     q1:
         header: Implement the function ``portrait(right_password, entered_password)``

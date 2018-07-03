@@ -24,7 +24,7 @@ limits:
     time: '30'
 name: 'Session 2: Minimum'
 network_grading: false
-order: 4
+order: 5
 problems:
     q1:
         header: |-

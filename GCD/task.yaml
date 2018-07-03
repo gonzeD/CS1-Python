@@ -28,7 +28,7 @@ limits:
     time: '30'
 name: 'Session 3: Greatest common divisor'
 network_grading: false
-order: 10
+order: 11
 problems:
     q1:
         header: Implement the function ``gcd(a,b)`` in Python.

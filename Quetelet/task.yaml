@@ -29,7 +29,7 @@ limits:
     time: '30'
 name: 'Session 3: BMI index'
 network_grading: false
-order: 12
+order: 13
 problems:
     q1:
         header: Implement the function ``quetelet(height, weight)`` in Python.

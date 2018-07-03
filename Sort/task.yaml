@@ -25,7 +25,7 @@ limits:
     time: '30'
 name: 'Session 5: List sorting'
 network_grading: false
-order: 23
+order: 26
 problems:
     q1:
         header: |-

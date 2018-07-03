@@ -28,7 +28,7 @@ limits:
     time: '30'
 name: 'Session 2: Remainder of an integer division'
 network_grading: false
-order: 7
+order: 8
 problems:
     q1:
         header: |-

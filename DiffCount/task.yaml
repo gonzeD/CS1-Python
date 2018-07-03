@@ -31,7 +31,7 @@ limits:
     time: '30'
 name: 'Session 4: Difference counter'
 network_grading: false
-order: 18
+order: 20
 problems:
     q1:
         header: |-

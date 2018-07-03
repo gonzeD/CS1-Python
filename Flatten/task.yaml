@@ -28,7 +28,7 @@ limits:
     time: '30'
 name: 'Session 8: Flatten'
 network_grading: false
-order: 33
+order: 38
 problems:
     q1:
         header: Implement the function ``flatten(l)`` in Python.

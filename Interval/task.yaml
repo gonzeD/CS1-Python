@@ -22,7 +22,7 @@ limits:
     time: '30'
 name: 'Session 2: Interval'
 network_grading: false
-order: 3
+order: 4
 problems:
     q1:
         header: |
