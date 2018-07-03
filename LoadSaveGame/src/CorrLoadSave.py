@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 
-
 def save_data(filename, life, mana, position_x, position_y): #save the 4 integer to the file named filename
 	f = open(filename, 'w')
 	f.write(str(life)+'\n')
