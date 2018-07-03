@@ -11,7 +11,10 @@ import highOrder
 
 class TestHighOrder(unittest.TestCase):
     def test_lambda(self):
-        return True
+        x = random.randint(10, 100)
+        stud_ans = highOrder.mult_table(x)
+        for n in range(3):
+        	self.assertEqual(stud_ans[n].__name__,'<lambda>',"Use lambda and not functions.")
     
     def test_rand(self):
         ans = _("The function {} with the argument {} of the list\n gives {} when the answer should be {}.\n You may have not captured the variable in the lambda. (see in the instructions)")
