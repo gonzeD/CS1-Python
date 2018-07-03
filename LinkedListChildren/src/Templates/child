@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 
-
 class Child:
     def __init__(self):
         self.next = None # the pointer initially points to nothing

@@ -2,7 +2,7 @@ accessible: true
 author: Damien Gonze
 context: |-
     You are the manager of a vacation camp. To make sure you don't lose any children in your visit of a local forest, every children must look to a buddy, which will look to another buddy, etc. Until every children has a buddy and is the buddy of someone.
-    You are sure that if you take a children, and follow the trail of buddy, you will visit all children.
+    You are sure that if you take a children, and follow the trail of buddies, you will visit all children.
     To check if every child is here, you just need to check that every children has his buddy, and check that for all children.
 
     .. raw:: html
@@ -32,7 +32,7 @@ problems:
         header: ''
         type: code
         header: |-
-          You have to check if every children is here. To do so, you have acces to the first child, in the variable first_child of the class Child (that is a valid Child). the class Child has the function is_next_valid to check if it has his buddy, and the function next_child to get his buddy.
+          You have to check if every children is here. To do so, you have acces to the first child with the variable ``first_child`` (instance of the class Child). The class Child has the function is_next_valid to check if it has his buddy, and the function next_child to get his buddy.
 
           .. code-block:: python
 
@@ -42,7 +42,7 @@ problems:
 
 
           Don't forget to stop checking once you have checked every children.
-          You have to complete the body of the function, and return true if all the children are here, and false if not
+          You have to complete the body of the function, and return true if all the children are here, and false if not.
 
           .. code-block:: python
 
