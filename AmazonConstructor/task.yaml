@@ -1,0 +1,70 @@
+accessible: true
+author: Damien Gonze
+context: |-
+    As the new manager of an Amazon dispatch center, you have to create a class to represent the commands.
+
+    A command have the following attributes :
+
+    * the id of the buyer
+
+    * the id of the item
+
+    * the quantity of the item
+
+    * the price of the item
+
+    And must have the following methods :
+
+    * get_price() : return the total price of the command
+
+    * __str__() : return the command on the format : id_buyer, id_item : price * quantity = (price*quantity)
+
+    example : "12, 32 : 5 * 20 = 100"
+
+    There must also be class methods :
+
+    * get_number_total_commad() : return the total number of commands made
+
+    * get_total_price() : return the total price of all the commands
+
+    .. raw:: html
+
+       <script defer>
+       $(document).ready(function(){
+           setTimeout(function() {
+           window.parent.postMessage({height: document.body.scrollHeight}, "*");
+        }, 0);
+       })
+       </script>
+environment: default
+evaluate: best
+groups: false
+input_random: '0'
+limits:
+    output: '2'
+    memory: '100'
+    time: '30'
+name: 'Session 9: Amazon dispatch center'
+network_grading: false
+order: 39
+problems:
+    q1:
+        header: |-
+            Implement the class ``Command`` and the two methods in Python.
+
+            We will create the object with:
+
+            *command = Command(id_buyer, id_item, quantity_item, price_item)*
+
+            and call the class method with:
+
+            *command.get_number_total_command()*
+        type: code
+        language: python
+        name: Implementation
+stored_submissions: 0
+submission_limit:
+    amount: -1
+    period: -1
+tags: {}
+weight: 1.0
