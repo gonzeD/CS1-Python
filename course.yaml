@@ -1,5 +1,5 @@
 name: '[LSINF1101-PYTHON] Introduction à la programmation'
-accessible: false
+accessible: true
 admins:
 - tdebels
 - mens
@@ -11,10 +11,11 @@ tutors:
 - jedewandre
 - michelfra
 - outters
+- bellon
 groups_student_choice: false
 use_classrooms: true
 allow_unregister: true
-registration: true
+registration: false
 registration_password: null
 registration_ac: null
 registration_ac_list:
@@ -24,3 +25,4 @@ is_lti: true
 lti_keys:
     interactivesyllabus: hefzahyh98h9Hdzzio
 lti_send_back_grade: false
+description: ''

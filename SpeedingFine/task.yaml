@@ -34,7 +34,7 @@ limits:
     time: '30'
 name: 'Session 3: Speeding fine'
 network_grading: false
-order: 13
+order: 14
 problems:
     q1:
         header: Implement the function ``fine(authorized_speed, actual_speed)`` in

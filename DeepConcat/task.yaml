@@ -30,7 +30,7 @@ limits:
     time: '30'
 name: 'Session 8: Deep concatenation'
 network_grading: false
-order: 32
+order: 37
 problems:
     q1:
         header: Implement the function ``deep_concat(l)`` in Python.

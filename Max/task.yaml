@@ -24,7 +24,7 @@ limits:
     time: '30'
 name: 'Session 4: Maximum'
 network_grading: false
-order: 14
+order: 16
 problems:
     q1:
         header: Implement the function ``maximum(lst)`` in Python.

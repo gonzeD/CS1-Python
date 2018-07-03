@@ -31,7 +31,7 @@ limits:
     time: '30'
 name: 'Session 4: Prime numbers'
 network_grading: false
-order: 17
+order: 19
 problems:
     q1:
         header: Implement the function ``primes(max)`` in Python.

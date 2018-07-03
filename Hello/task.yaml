@@ -6,8 +6,7 @@ context: |-
     and you want to store your greeting in a variable called ``hello``.
     This string will have the following form: "Hello, ``name``!"
 
-    For example, if ``name`` is assigned "Charles",
-    your code would assign the variable ``hello`` to "Hello, Charles!".
+    For example, if ``name`` is assigned "Charles", your code would put "Hello, Charles!" in the variable ``hello``.
 
     .. raw:: html
 
@@ -30,15 +29,16 @@ limits:
     memory: '100'
     time: '30'
     output: '2'
-name: 'Session 1: Hello'
+name: 'Session 4: Hello'
 network_grading: false
-order: 2
+order: 15
 problems:
     q1:
-        type: code
         language: python
         name: Implementation
-        header: Store your greeting string in ``hello`` (with ``name`` the user's name).
+        header: Store your greeting string in ``hello`` (with ``name`` the user's
+            name)
+        type: code
 stored_submissions: 0
 submission_limit:
     amount: -1

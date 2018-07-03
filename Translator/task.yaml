@@ -32,7 +32,7 @@ limits:
     time: '30'
 name: 'Session 7: Apocalypse - Language translation'
 network_grading: false
-order: 27
+order: 32
 problems:
     q1:
         header: |-
