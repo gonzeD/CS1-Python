@@ -1,0 +1,53 @@
+accessible: true
+author: Damien Gonze
+context: |-
+    For your next big game, God of massive destruction Game Of The Century edition, you have to create a function to load and to save the data of the player.
+
+    .. raw:: html
+
+       <script defer>
+       $(document).ready(function(){
+           setTimeout(function() {
+           window.parent.postMessage({height: document.body.scrollHeight}, "*");
+        }, 0);
+       })
+       </script>
+environment: default
+evaluate: best
+groups: false
+input_random: '0'
+limits:
+    time: '30'
+    memory: '100'
+    output: '2'
+name: 'Session 6 : Save your game'
+network_grading: false
+order: 36
+problems:
+    q1:
+        name: Save and Load
+        language: python
+        header: ''
+        type: code
+        header: |-
+          You have to create two function, one to save the data and one to load the data previously saved.
+          You are free to store the data like you want in the file, but putting one integer per line is probably the easiest.
+          If there is no file to load when using the function load_data (for exemple, the player starts a new game), you must raise a FileNotFoundError.
+
+          The two function will have these definition :
+
+          .. code-block:: python
+
+              #save the 4 integer to the file named filename
+              def save_data(filename, life, mana, position_x, position_y)
+
+              #return a tuple containing (life, mana, position_x, position_y) previously saved
+              def load_data(filename)
+
+
+stored_submissions: 0
+submission_limit:
+    amount: -1
+    period: -1
+tags: {}
+weight: 1.0
