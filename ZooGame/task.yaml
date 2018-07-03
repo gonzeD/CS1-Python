@@ -48,7 +48,7 @@ problems:
 
             * an attribute ``nb_legs`` which represents the number of legs the animal has
 
-            * an attribute ``asleep`` which will be set to ``True`` (resp. ``False``) by calling the method ``sleep()`` (resp. ``wake_up()``). If the animal tries to wake up while it is still asleep or to sleep while it is already asleep, your program should raise a ``RuntimeError``.
+            * an attribute ``asleep`` which will be set to ``True`` (resp. ``False``) by calling the method ``sleep()`` (resp. ``wake_up()``). If the animal tries to wake up while it is not asleep or to sleep while it is already asleep, your program should raise a ``RuntimeError``.
 
             Only the name of the animal needs to be passed to the constructor.
             We decide to set ``asleep`` to ``False`` by default.
