@@ -18,9 +18,10 @@ context: |-
     * get_price() : return the total price of the command
 
     * __str__() : return the command on the format : id_buyer, id_item : price * quantity = (price*quantity)
+
     example : "12, 32 : 5 * 20 = 100"
 
-    There must also be utilities methods :
+    There must also be class methods :
 
     * get_number_total_commad() : return the total number of commands made
 
@@ -54,6 +55,10 @@ problems:
             We will create the object with:
 
             *command = Command(id_buyer, id_item, quantity_item, price_item)*
+
+            and call the class method with:
+
+            *command.get_number_total_command()*
         type: code
         language: python
         name: Implementation

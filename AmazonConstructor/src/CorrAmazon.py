@@ -16,14 +16,14 @@ class Command:
         Command.total_price += self.get_price()
 
     def __str__(self):
-        ans = _("{}, {} : {} * {} = {}")
-        return ans.format(self.id_buyer, self.id_item, self.price_item, self.quantity_item, self.price_item*self.quantity_item)
+        ans = "{}, {} : {} * {} = {}"
+        return ans.format(self.id_buyer, self.id_item, self.price_item, self.quantity_item, self.price_item * self.quantity_item)
 
     def get_price(self) :
-        return self.quantity_item*self.price_item
+        return self.quantity_item * self.price_item
 
-def get_number_total_commad() :
-    return Command.command_number
+    def get_number_total_commad(cls) :
+        return cls.command_number
 
-def get_total_price() :
-    return Command.total_price
+    def get_total_price(cls) :
+        return cls.total_price
