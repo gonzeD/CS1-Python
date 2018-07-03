@@ -33,7 +33,7 @@ limits:
     output: '2'
 name: 'Session 10: Zoo Game'
 network_grading: false
-order: 39
+order: 41
 problems:
     q1:
         type: code
@@ -79,7 +79,6 @@ problems:
             You are finally asked to define a function ``create_my_zoo()`` that
             will return your zoo containing a lion, an owl and two giraffes.
             Those are your animals, name them as you want ;)
-
 stored_submissions: 0
 submission_limit:
     amount: -1
