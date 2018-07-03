@@ -1,9 +1,7 @@
 accessible: true
 author: Simon Gustin
 context: |-
-    You are a programmer and want to say "hello" to the user of your program.
-    The user's name is stored in a variable called ``name``
-    and you want to store your greeting in a variable called ``hello``.
+    You are a programmer and want to say hello to the user of your program. The user's name is stored in a variable called ``name`` and you want to store your greeting in a variable called ``hello``.
     This string will have the following form: "Hello, ``name``!"
 
     For example, if ``name`` is assigned "Charles", your code would put "Hello, Charles!" in the variable ``hello``.

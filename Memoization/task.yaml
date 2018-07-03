@@ -28,7 +28,7 @@ limits:
     time: '30'
 name: 'Session 8: Memoization'
 network_grading: false
-order: 35
+order: 36
 problems:
     q1:
         header: |-

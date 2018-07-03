@@ -40,7 +40,7 @@ limits:
     time: '30'
 name: 'Session 9: Student - init'
 network_grading: false
-order: 39
+order: 40
 problems:
     q1:
         header: |-
