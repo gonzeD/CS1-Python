@@ -34,7 +34,7 @@ limits:
     time: '30'
 name: 'Session 2: FizzBuzz'
 network_grading: false
-order: 6
+order: 7
 problems:
     q1:
         header: '``i`` is provided and you need to store the adequate return value

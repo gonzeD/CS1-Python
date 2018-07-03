@@ -31,7 +31,7 @@ limits:
     time: '30'
 name: 'Session 3: Fibonacci'
 network_grading: false
-order: 11
+order: 12
 problems:
     q1:
         header: Implement the function ``fibonacci(n)`` in Python.

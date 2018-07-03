@@ -25,21 +25,20 @@ limits:
     memory: '100'
     time: '30'
     output: '2'
-name: 'Session 6: Lists merging'
+name: 'Session 5: Lists merging'
 network_grading: false
-order: 8
+order: 25
 problems:
     q1:
         language: python
-        type: code
+        name: Implementation
         header: |-
             Provide the body of the following method
 
             .. code-block:: python
 
                 def merge(first_list, second_list):
-        name: Implementation
-        default: ''
+        type: code
 stored_submissions: 0
 submission_limit:
     amount: -1

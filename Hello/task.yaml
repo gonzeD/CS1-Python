@@ -3,7 +3,7 @@ author: Simon Gustin
 context: |-
     You are a programmer and want to say hello to the user of your program. The user's name is stored in a variable called ``name`` and you want to store your greeting in a variable called ``hello``.
     This string will have the following form: "Hello, ``name``!"
-    
+
     For example, if ``name`` is assigned "Charles", your code would put "Hello, Charles!" in the variable ``hello``.
 
     .. raw:: html
@@ -27,15 +27,16 @@ limits:
     memory: '100'
     time: '30'
     output: '2'
-name: 'Session 1: Hello'
+name: 'Session 4: Hello'
 network_grading: false
-order: 0
+order: 15
 problems:
     q1:
-        type: code
         language: python
         name: Implementation
-        header: Store your greeting string in ``hello`` (with ``name`` the user's name)
+        header: Store your greeting string in ``hello`` (with ``name`` the user's
+            name)
+        type: code
 stored_submissions: 0
 submission_limit:
     amount: -1

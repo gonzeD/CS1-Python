@@ -26,7 +26,7 @@ limits:
     time: '30'
 name: 'Session 3: Interest calculation'
 network_grading: false
-order: 9
+order: 10
 problems:
     q1:
         header: |-

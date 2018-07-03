@@ -40,15 +40,15 @@ limits:
     time: '30'
 name: 'Session 9: Student - init'
 network_grading: false
-order: 34
+order: 39
 problems:
     q1:
         header: |-
-          Implement the class ``Student`` in Python.
+            Implement the class ``Student`` in Python.
 
-          We will create the object with:
+            We will create the object with:
 
-          *stu = Student('firstname', 'surname', 'birthday', 'email')*
+            *stu = Student('firstname', 'surname', 'birthday', 'email')*
         type: code
         language: python
         name: Implementation

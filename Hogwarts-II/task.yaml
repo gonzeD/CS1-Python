@@ -28,7 +28,7 @@ limits:
     time: '30'
 name: 'Session 5: Hogwarts - Sorting Hat'
 network_grading: false
-order: 22
+order: 24
 problems:
     q1:
         header: |-
