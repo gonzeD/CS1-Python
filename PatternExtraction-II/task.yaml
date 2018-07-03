@@ -36,7 +36,7 @@ limits:
     time: '30'
 name: 'Session 4: Anonymous - Information treatment'
 network_grading: false
-order: 23
+order: 24
 problems:
     q1:
         header: Implement the function ``treatment(data)`` in Python.

@@ -34,7 +34,7 @@ limits:
     time: '30'
 name: 'Session 7: Anonymous - Information collection'
 network_grading: false
-order: 30
+order: 31
 problems:
     q1:
         header: Implement the function ``collect(file)`` in Python.

@@ -27,7 +27,7 @@ limits:
     time: '30'
 name: 'Session 6: Hogwarts - Admission letter'
 network_grading: false
-order: 27
+order: 28
 problems:
     q1:
         type: code

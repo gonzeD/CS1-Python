@@ -32,7 +32,7 @@ limits:
     time: '30'
 name: 'Session 7: Hogwarts - House cup'
 network_grading: false
-order: 29
+order: 30
 problems:
     q1:
         header: |-
