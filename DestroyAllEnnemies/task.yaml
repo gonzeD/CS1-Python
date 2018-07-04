@@ -1,0 +1,91 @@
+accessible: true
+author: Damien Gonze
+context: |-
+    You are still working on your next big game, God of massive destruction Game Of The Century edition, and now you need to implement a basic combat system.
+    For this exercice, you will need to implement three classes : Character, Cratos and Drauf.
+
+    Cratos and Drauf will inherit from Character.
+
+    The Cratos class represent the player, and the Drauf is a basic ennemy.
+
+    the Character class will have to have the attributes life and attack_point, and the functions attack and get_hit.
+
+    The Cratos class also have an attribute experience and a function gain_XP.
+
+    Cratos starts with 100 life, 10 damage and 0 experience. The Drauf will have its variables set with the constructor.
+
+    The function attack will get an Character, and will have to call the function get_hit of this object, with its attack_point in parameter.
+
+    The function get_hit will reduce the life of the object by the damage.
+
+    The function gain_XP will increase the XP of the player by the amount in parameters. Every 10 point of experience, the damage of Cratos will increase by 1 (the amount of XP gain can be higher than 10; be careful to take that in account)
+
+    .. raw:: html
+
+       <script defer>
+       $(document).ready(function(){
+           setTimeout(function() {
+           window.parent.postMessage({height: document.body.scrollHeight}, "*");
+        }, 0);
+
+        $(window).resize(function(){
+            window.parent.postMessage({height: document.body.scrollHeight}, "*");
+        });
+       })
+       </script>
+environment: default
+evaluate: best
+groups: false
+input_random: '0'
+limits:
+    memory: '100'
+    time: '30'
+    output: '2'
+name: 'Session 10: Kill them all'
+network_grading: false
+order: 43
+problems:
+    q1:
+        type: code
+        language: python
+        name: Implementation
+        header: |-
+            You have to implement the following :
+
+            the class Character
+
+            .. code-block:: python
+
+              #attributes
+              life
+              attack_point
+
+              #functions
+              attack(target)
+              get_hit(damage)
+
+            the class Cratos
+
+            .. code-block:: python
+
+              #attributes
+              experience
+
+              #functions
+              __init__()
+              gain_XP(amount)
+
+            the class Drauf
+
+            .. code-block:: python
+
+              #functions
+              __init__(life, damage)
+
+
+stored_submissions: 0
+submission_limit:
+    amount: -1
+    period: -1
+tags: {}
+weight: 1.0
