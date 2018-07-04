@@ -45,13 +45,7 @@ class TestAdmission(unittest.TestCase):
         self.assertEqual(corr_ans, stu_ans, ans.format(corr_ans, stu_ans))
 
     def test_IOError(self):
-        ans_no_return = _("You should have raised an error and returned its name but nothing happened.")
-        ans = _("You should have raised an error and returned its name but you returned {}.")
-        stu_ans = admission.write('IOError.txt', 'toto')
-        if stu_ans is None:
-            self.assertTrue(False, ans_no_return)
-        else:
-            self.assertEqual(equal_string('IOError'), equal_string(stu_ans), ans.format(stu_ans))
+        self.assertRaises(IOError, admission.write, 'IOError.txt', 'toto')
 
 
 if __name__ == '__main__':

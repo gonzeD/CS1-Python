@@ -7,7 +7,7 @@ context: |-
 
     Create a function ``collect(data)`` to read the file extract the patterns and store them in a dictionary with their occurrences.
 
-    In case of error, just return a string with the name of the error.
+    In case of error, just raise it.
 
     *Reminder*:
 

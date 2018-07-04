@@ -10,4 +10,4 @@ def write(file, name):
             f.seek(0)
             f.write(edited_letter)
     except IOError:
-        return 'IOError'
+        raise IOError("File does not exist.")

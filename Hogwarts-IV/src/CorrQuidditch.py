@@ -17,5 +17,5 @@ def referee(file):
                     print('there')
                     break
     except IOError:
-        return 'IOError'
+        raise IOError("File does not exist.")
     return max(score, key=score.get)

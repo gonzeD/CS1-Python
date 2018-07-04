@@ -10,7 +10,7 @@ context: |-
     - Two first lines: **Names of the teams**
     - Lines after: **Team_scoring** *points*
 
-    In case of error, just return a string with the name of the error.
+    In case of error, just raise it.
 
     Remember that the catch of the *golden snitch* (150 points) means the end of the match.
 

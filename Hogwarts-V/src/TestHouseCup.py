@@ -50,9 +50,7 @@ class TestHouseCup(unittest.TestCase):
         self.assertEqual(corr_ans, stu_ans, ans.format(score, stu_ans, corr_ans))
 
     def test_IOError(self):
-        ans = _("You should have raised an error and returned the name of the error but it returned: {}.")
-        stu_ans = houseCup.winning_house('IOError.txt')
-        self.assertEqual(equal_string('IOError'), equal_string(stu_ans), ans.format(stu_ans))
+        self.assertRaises(IOError, houseCup.winning_house, 'IOError.txt')
 
 
 if __name__ == '__main__':

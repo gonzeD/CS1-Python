@@ -11,7 +11,7 @@ context: |-
 
     Please return the name of the winning house, in the case of an ex-aequo: return the list of the best houses.
 
-    In case of error, just return a string with the name of the error.
+    In case of error, just raise it.
 
     .. raw:: html
 

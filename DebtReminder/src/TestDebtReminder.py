@@ -17,7 +17,6 @@ class TestDebtReminder(unittest.TestCase):
         self.assertTrue(hasattr(stu, "give_money"), _("The function `give_money` does not exist."))
         self.assertTrue(hasattr(stu, "total_money_borrowed"), _("The function `total_money_borrowed` does not exist."))
 
-
     def test_give_money_total_valid(self):
         self.check_existences()
         name1 = "Paul"; name2 = "John"; name3 = "Georges"; name4 = "Ringo"
@@ -39,7 +38,6 @@ class TestDebtReminder(unittest.TestCase):
         student_tot = stu.total_money_borrowed(student_ans)
         self.assertEqual(corr_tot, student_tot, _("With {}, you computed a total amount of money borrowed of {} instead of {}.".format(student_ans, student_tot, corr_tot)))
 
-
     def test_give_money_invalid(self):
         self.check_existences()
         valid_dict = {}
@@ -56,13 +54,11 @@ class TestDebtReminder(unittest.TestCase):
             self.assertRaises(ValueError, stu.give_money, valid_dict, valid_names[0], valid_names[1], amount)
         self.assertRaises(ValueError, stu.give_money, valid_dict, valid_names[0], valid_names[0], valid_amount)
 
-
     def test_total_invalid(self):
         self.check_existences()
         invalid_dict = ["slt", ValueError()]
         for dictionary in invalid_dict:
             self.assertRaises(ValueError, stu.total_money_borrowed, dictionary)
-
 
     def test_asked_example(self):
         self.assertEqual(corr.borrowed_money, stu.borrowed_money, _("For the example asked, you got an incorrect answer: {}".format(stu.borrowed_money)))

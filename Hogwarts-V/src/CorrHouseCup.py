@@ -27,5 +27,5 @@ def winning_house(file):
                     if student in students[house]: team = house
                 score[team] += points
     except IOError:
-        return 'IOError'
+        raise IOError("File does not exist.")
     return maximum(score)
