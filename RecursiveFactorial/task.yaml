@@ -1,5 +1,6 @@
 accessible: true
 author: Tanguy De Bels
+corrector : Jack Eliat-Eliat et Damien Gonze
 context: |-
     In mathematics, the factorial of a strictly positive integer ``x``, noted :math:`x!` is defined as the product of all strictly positive integers less than or equal to ``x``. The factorial of 0 is defined as 1. Write a function that computes the factorial of a given integer x.
 

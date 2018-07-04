@@ -21,14 +21,14 @@ class Counter(object):
 
 class TestFactorial(unittest.TestCase):
     def setUp(self):
-        a = random.randint(6, 100)
+        a = random.randint(6, 69)
         ans = _("You did not use recursion in your algorithm ")
         factorial.factorial = Counter(factorial.factorial)
         stu_ans = factorial.factorial(a)
         self.assertNotEqual(1, factorial.factorial.counter, ans)
 
     def test_factorial(self):
-        a = [random.randint(1, 100) for _ in range(5)]
+        a = [random.randint(1, 69) for _ in range(5)]
         ans = _("The factorial of the integer {} is {} and you returned {}.")
         for i in range(len(a)):
             stu_ans = factorial.factorial(a[i])
