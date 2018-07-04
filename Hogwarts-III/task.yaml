@@ -1,6 +1,6 @@
 accessible: true
 author: Tanguy De Bels
-context: |4-
+context: |-
 
     All your life you wondered *"Where did this stupid owl misplace my letter?"*, *"When will I finally go to Hogwarts?"* or even on the end *"Am I actually a squib?"*. Do not worry!
 
@@ -32,7 +32,10 @@ problems:
     q1:
         type: code
         language: python
-        header: Implement the function ``write(letter_template, name)`` in Python.
+        header: |-
+            Implement the function ``write(letter_template, name)`` in Python.
+
+            Don't forget to raise an exception if any should occur.
         name: Implementation
 stored_submissions: 0
 submission_limit:

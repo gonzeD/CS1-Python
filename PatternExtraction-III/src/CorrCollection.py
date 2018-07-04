@@ -36,5 +36,5 @@ def collect(file):
                 if pat in dic: dic[pat] += 1
                 else: dic[pat] = 1
     except IOError:
-        return 'IOError'
+        raise IOError("File does note exist.")
     return dic
