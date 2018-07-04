@@ -22,29 +22,26 @@ limits:
     output: '2'
 name: 'Session 6 : Save your game'
 network_grading: false
-order: 24
+order: 27
 problems:
     q1:
         name: Save and Load
         language: python
-        header: ''
-        type: code
         header: |-
-          You have to create two function, one to save the data and one to load the data previously saved.
-          You are free to store the data like you want in the file, but putting one integer per line is probably the easiest.
-          If there is no file to load when using the function load_data (for exemple, the player starts a new game), you must raise a FileNotFoundError.
+            You have to create two function, one to save the data and one to load the data previously saved.
+            You are free to store the data like you want in the file, but putting one integer per line is probably the easiest.
+            If there is no file to load when using the function load_data (for exemple, the player starts a new game), you must raise a FileNotFoundError.
 
-          The two function will have these definition :
+            The two function will have these definition :
 
-          .. code-block:: python
+            .. code-block:: python
 
-              #save the 4 integer to the file named filename
-              def save_data(filename, life, mana, position_x, position_y)
+                #save the 4 integer to the file named filename
+                def save_data(filename, life, mana, position_x, position_y)
 
-              #return a tuple containing (life, mana, position_x, position_y) previously saved
-              def load_data(filename)
-
-
+                #return a tuple containing (life, mana, position_x, position_y) previously saved
+                def load_data(filename)
+        type: code
 stored_submissions: 0
 submission_limit:
     amount: -1

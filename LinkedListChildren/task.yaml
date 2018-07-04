@@ -25,7 +25,7 @@ limits:
     output: '2'
 name: 'Session 11 : Lost Children'
 network_grading: false
-order: 42
+order: 44
 problems:
     q1:
         name: Check the children

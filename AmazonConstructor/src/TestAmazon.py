@@ -24,9 +24,7 @@ class TestStudent(unittest.TestCase):
         ans = _("With the following data: {}, {}, {}, {} for the command created, you returned {} instead of {}")
         stu_ans = amazon.Command(id_buyer, id_item, price, quantity)
         corr_ans = corr.Command(id_buyer, id_item, price, quantity)
-        self.assertEqual(equal_string(str(corr_ans)), equal_string(str(stu_ans)), ans.format(id_buyer, id_item, price,
-                                                                                             quantity, stu_ans, corr_ans))
-
+        self.assertEqual(str(corr_ans), str(stu_ans), ans.format(id_buyer, id_item, price, quantity, stu_ans, corr_ans))
 
     def test_helper(self):
         id_buyer = random.randint(0, 100)
@@ -39,8 +37,10 @@ class TestStudent(unittest.TestCase):
         for i in range(0, number):
             last_command = amazon.Command(id_buyer, id_item, price, quantity)
             total_price += price*quantity
-        self.assertEqual(number, last_command.get_number_total_command(), msg=_("you do not get the correct number of Command"))
-        self.assertEqual(total_price, last_command.get_total_price(), msg=_("you do not get the correct total price of all Command"))
+        self.assertEqual(number, last_command.get_number_total_command(), msg=_("you do not get the correct number "
+                                                                                "of Command"))
+        self.assertEqual(total_price, last_command.get_total_price(), msg=_("you do not get the correct total price "
+                                                                            "of all Command"))
 
 
 if __name__ == '__main__':

@@ -17,13 +17,16 @@ class Command:
 
     def __str__(self):
         ans = "{}, {} : {} * {} = {}"
-        return ans.format(self.id_buyer, self.id_item, self.price_item, self.quantity_item, self.price_item * self.quantity_item)
+        return ans.format(self.id_buyer, self.id_item, self.price_item, self.quantity_item,
+                          self.price_item * self.quantity_item)
 
-    def get_price(self) :
+    def get_price(self):
         return self.quantity_item * self.price_item
 
-    def get_number_total_commad(cls) :
+    @classmethod
+    def get_number_total_command(cls):
         return cls.command_number
 
-    def get_total_price(cls) :
+    @classmethod
+    def get_total_price(cls):
         return cls.total_price

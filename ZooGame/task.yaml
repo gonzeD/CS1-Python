@@ -33,7 +33,7 @@ limits:
     output: '2'
 name: 'Session 10: Zoo Game'
 network_grading: false
-order: 41
+order: 43
 problems:
     q1:
         type: code
