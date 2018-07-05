@@ -1,8 +1,11 @@
 accessible: true
 author: Damien Gonze
 context: |-
-    You are still working on your next big game, God of massive destruction Game Of The Century edition, and now you need to implement a basic combat system.
+    You are still working on your next big game, God of massive destruction Game Of The Century edition, and now you need to implement a better combat system.
+
     For this exercice, you will need to implement three classes : Character, Cratos and Drauf.
+
+    Your manager found it was too easy with a weapon, so Cratos will fight with is bare fists for this exercice. So no weapons
 
     Cratos and Drauf will inherit from Character.
 

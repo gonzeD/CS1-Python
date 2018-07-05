@@ -1,0 +1,89 @@
+accessible: true
+author: Damien Gonze
+context: |-
+    You are still working on your next big game, God of massive destruction Game Of The Century edition, and now you need to implement a basic combat system.
+
+    For this exercice, you will need to implement three classes : Cratos, Drauf and Weapon.
+
+    The Cratos class represent the player, the Drauf is a basic ennemy, and the Weapon is a weapon usable by Cratos.
+
+    For the moment, only Cratos can attack.
+
+    Cratos can equip a weapon, and hit a Drauf.
+
+    The Weapon has a certain attack, and the Drauf has life.
+
+    The Drauf has the method get_hit(damage) and Cratos has the function hit(ennemy)
+    
+    .. raw:: html
+
+       <script defer>
+       $(document).ready(function(){
+           setTimeout(function() {
+           window.parent.postMessage({height: document.body.scrollHeight}, "*");
+        }, 0);
+
+        $(window).resize(function(){
+            window.parent.postMessage({height: document.body.scrollHeight}, "*");
+        });
+       })
+       </script>
+environment: default
+evaluate: best
+groups: false
+input_random: '0'
+limits:
+    memory: '100'
+    time: '30'
+    output: '2'
+name: 'Session 9: Kill an ennemy'
+network_grading: false
+order: 40
+problems:
+    q1:
+        type: code
+        language: python
+        name: Implementation
+        header: |-
+            You have to implement the following :
+
+            the class Weapon
+
+            .. code-block:: python
+
+              #attributes
+              attack
+
+              #functions
+              __init__(attack)
+
+            the class Cratos
+
+            .. code-block:: python
+
+              #attributes
+              weapon
+
+              #functions
+              __init__(weapon)
+              set_weapon(weapon) # change the weapon
+              hit(ennemy) # call the get_hit of the ennemy with the weapon attack
+
+            the class Drauf
+
+            .. code-block:: python
+
+              #attributes
+              life
+
+              #functions
+              __init__(life)
+              get_hit(damage) # reduce the life by the damage taken
+
+
+stored_submissions: 0
+submission_limit:
+    amount: -1
+    period: -1
+tags: {}
+weight: 1.0
