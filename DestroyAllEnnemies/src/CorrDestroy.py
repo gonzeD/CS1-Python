@@ -6,7 +6,6 @@ class Character :
         self.life = 100
         self.attack_point = 10
 
-
     def attack(self, target):
         target.get_hit(self.attack_point)
 
