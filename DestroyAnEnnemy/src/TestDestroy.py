@@ -33,12 +33,10 @@ class TestDestroy(unittest.TestCase):
         self.assertTrue(hasattr(weapon, "__init__"), _("Your class `Weapon` does not have an attribute `__init__`."))
         self.assertTrue(hasattr(weapon, "attack"), _("Your class `Weapon` does not have an attribute `__init__`."))
 
-
         drauf = destroy.Drauf(10)
         self.assertTrue(hasattr(drauf, "__init__"), _("Your class `Drauf` does not have an attribute `__init__`."))
         self.assertTrue(hasattr(drauf, "life"),  _("Your class `Drauf` does not have an attribute `life`."))
         self.assertTrue(hasattr(drauf, "get_hit"),  _("Your class `Drauf` does not have an attribute `get_hit`."))
-
 
     def test_constructor(self):
 
@@ -51,7 +49,6 @@ class TestDestroy(unittest.TestCase):
         cratos = destroy.Cratos(weapon)
         cratosCorr = corr.Cratos(weapon)
         self.assertEqual(cratos.weapon, cratosCorr.weapon, _("The Cratos constructed has not the good weapon, make sure you set it in the constructor"))
-
 
         life = random.randint(0, 150)
         drauf = destroy.Drauf(life)
@@ -69,7 +66,6 @@ class TestDestroy(unittest.TestCase):
         cratosCorr = corr.Cratos(weapon)
         drauf = destroy.Drauf(life)
         draufCorr = corr.Drauf(life)
-
 
         for i in range(0, 5) :
             if i == 1 :
