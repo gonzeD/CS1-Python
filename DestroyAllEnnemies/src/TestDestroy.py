@@ -32,7 +32,6 @@ class TestDestroy(unittest.TestCase):
         cratos = destroy.Cratos()
         self.assertTrue(hasattr(cratos, "gain_XP"), _("Your class `Cratos` does not have an attribute `gain_XP`."))
 
-
         drauf = destroy.Drauf(10,10)
         self.assertFalse(hasattr(drauf, "gain_XP"), _("Your class `Drauf` have an attribute `gain_XP` which it shouldn't have."))
         self.assertFalse(hasattr(drauf, "experience"), _("Your class `Drauf` have an attribute `experience` which it shouldn't have."))
@@ -47,7 +46,6 @@ class TestDestroy(unittest.TestCase):
                                                                         .format(cratos.attack_point, cratosCorr.attack_point))
         self.assertEqual(cratosCorr.experience, cratos.experience, _("The Cratos constructed has not the good experience, it has {} instead of {}")
                                                                     .format(cratos.experience, cratosCorr.experience))
-
 
         life = random.randint(0, 150)
         atk = random.randint(0, 150)
